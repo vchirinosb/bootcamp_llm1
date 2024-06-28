@@ -108,8 +108,8 @@ if __name__ == '__main__':
     hacer_que_suenen(animals)
 
     # Exercise 5:
-    person_3 = Person('Jose', 21, 'Montevideo')
-    print(person_3.get_age())
-    person_3.set_age(-1)
-    person_3.set_age(24)
-    print(person_3.get_age())
+    person_5 = Person('Jose', 21, 'Montevideo')
+    print(person_5.get_age())
+    person_5.set_age(-1)
+    person_5.set_age(24)
+    print(person_5.get_age())
