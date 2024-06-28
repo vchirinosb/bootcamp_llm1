@@ -1,2 +1,4 @@
-# bootcamp_llm1
-Test repository
+# BOOTCAMP GENERATIVE AI
+## Solutions Development with Python
+
+Multiple code exercises
