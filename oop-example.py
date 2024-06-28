@@ -8,7 +8,7 @@ from abc import ABC, abstractmethod
 class Camera(ABC):
 
     """
-    Camera abstract class. represents general features and camara behaviours.
+    Camera abstract class. Represents general features and camara behaviours.
     """
 
     def __init__(self, brand: str, model: str, resolution: float):
