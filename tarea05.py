@@ -293,8 +293,9 @@ class Venta:
             f"Producto: {producto._nombre} - Cantidad: {cantidad} - Subtotal: {producto._precio * cantidad:.2f} soles"
             for producto, cantidad in self._productos
         )
-        return (
-            f"Fecha: {self._fecha}\n"
+
+        return (    
+            f"Fecha: {self._fecha.strftime('%m/%d/%Y')}\n"
             f"Listado de productos: \n{listado_productos}\n"
             f"Total: {self._total:.2f} soles")
 
@@ -349,7 +350,7 @@ if __name__ == '__main__':
     print('-----------------')
 
     # Crear una venta
-    venta_1 = Venta(date.today)
+    venta_1 = Venta(date.today())
 
     # Agregar productos al registro de Venta.
     venta_1.agregar_producto(producto_2, 5)
